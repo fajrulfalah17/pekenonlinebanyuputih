@@ -1,0 +1,20 @@
+.page-success {
+  .row-login {
+    // keterangan 75vh, 75 untuk persentase,vh = view height atau jarak antara atas dan bawah melalui browser
+    min-height: 75vh;
+  }
+
+  .section-success {
+    h2 {
+      font-size: 28px;
+      font-weight: 200;
+      color: #0c0d36;
+      margin-top: 0;
+    }
+
+    .btn-signup {
+      @include button-variant(#f3f3f3, transparent);
+      color: #bbbbbb;
+    }
+  }
+}
